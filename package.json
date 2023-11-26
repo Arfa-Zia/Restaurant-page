@@ -1,0 +1,16 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "This is a home page of a restaurant made with DOM manipulation totally also webpack and npm is used for this project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
