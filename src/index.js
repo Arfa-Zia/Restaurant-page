@@ -1,1 +1,5 @@
-console.log('Hello World! what are you doing?');
+import './style.css';
+import * as webpage from './dom func.js';
+
+// webpage.HomePage();
+
