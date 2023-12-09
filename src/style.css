@@ -237,3 +237,41 @@
     align-items: center;
     flex-wrap: wrap;
 }
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    width: 100vw;
+    background-color: maroon;
+    color:goldenrod;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(5, 5, 87);
+    padding: 40px;
+    height: 430px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#info > div > h3 {
+   font-size: 25px;
+   color : rgb(233, 146, 17);
+   padding-bottom: 5px;
+   font-family: "josefin sans" , 'Times New Roman', Times, serif;
+}
+#info > div > p {
+    font-size: 15px;
+    color : white;
+    line-height:  22px;
+    font-family: "josefin sans" , 'Times New Roman', Times, serif;
+}
+#map{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    z-index: 1000;
+    border: none;
+}

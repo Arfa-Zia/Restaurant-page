@@ -1,3 +1,4 @@
+
 const mainContent = document.querySelector('#content');
 //navbar setup
 export function Navbar(){
@@ -237,4 +238,81 @@ export function Menu(){
     figureD2.appendChild(imgD2);
     figureD2.appendChild(capD2);
 
+}
+//Contact page setup
+export function ContactUs(){
+    const contactUs = document.createElement('div');
+    contactUs.id = "contact";
+
+    const info = document.createElement('div');
+    info.id = 'info';
+    const div1 = document.createElement('div');
+    const div2 = document.createElement('div');
+    const div3 = document.createElement('div');
+    
+    const hI1 = document.createElement('h3');
+    hI1.textContent = "Working hours";
+    const hI2 = document.createElement('h3');
+    hI2.textContent = "Location";
+    const hI3 = document.createElement('h3');
+    hI3.textContent = "Contact us";
+   
+    const pI1 = document.createElement('p');
+    const pI2 = document.createElement('p');
+    const pI3 = document.createElement('p');
+    const pI4 = document.createElement('p');
+    const pI5 = document.createElement('p');
+    const pI6 = document.createElement('p');
+    const pI7 = document.createElement('p');
+    const pI8 = document.createElement('p');
+    const pI9 = document.createElement('p');
+    const pI10 = document.createElement('p');
+    
+    pI1.textContent = 'Sunday to Saturday';
+    pI2.textContent =  '9:00 AM to 11:00 PM';
+    pI3.textContent =  'Friday';
+    pI4.textContent =  '2:00 PM to 01:00 AM';
+    pI5.textContent = ' Street-123, Lahore,';
+    pI6.textContent = 'Pakistan';
+    pI7.textContent = '05499';
+    pI8.textContent = ' 0333-4444555,';
+    pI9.textContent = '0333-5555666,';
+    pI10.textContent = 'totallyrealemail@notfake.com';
+
+
+    const map = document.createElement( 'div');
+    map.id = "map";
+    const mapIframe = document.createElement('iframe');
+    mapIframe.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435616.16679459787!2d73.87165709295905!3d31.46227253712129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3918fde40e954753%3A0xb8ea639d79127a78!2sLahore%20City%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1702111843026!5m2!1sen!2s";
+    mapIframe.width = "900";
+    mapIframe.height = "500";
+    mapIframe.allowFullscreen = "";
+    mapIframe.loading = "lazy";
+    mapIframe.referrerPolicy = "no-referrer-when-downgrade";
+
+    //Appending all the nodes
+    mainContent.appendChild(contactUs);
+    contactUs.appendChild(info);
+    contactUs.appendChild(map);
+    info.appendChild(div1);
+    info.appendChild(div2);
+    info.appendChild(div3);
+    map.appendChild(mapIframe);
+    
+    div1.appendChild(hI1);
+    div1.appendChild(pI1);
+    div1.appendChild(pI2);
+    div1.appendChild(pI3);
+    div1.appendChild(pI4);
+
+    div2.appendChild(hI2);
+    div2.appendChild(pI5);
+    div2.appendChild(pI6);
+    div2.appendChild(pI7);
+
+    div3.appendChild(hI3);
+    div3.appendChild(pI8);
+    div3.appendChild(pI9);
+    div3.appendChild(pI10);
+   
 }
