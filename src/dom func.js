@@ -99,6 +99,7 @@ export function StoryPage(){
     story.appendChild(p6);
     
 }
+//Menu page setup
 export function Menu(){
     const menu = document.createElement("div");
     menu.id = "menu";
