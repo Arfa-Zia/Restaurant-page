@@ -29,14 +29,23 @@
 }
 .navbar > li {
     color: maroon;
-    text-decoration: none;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid goldenrod;
 }
+.navbar > li > a{
+    position: relative;
+    z-index: 2000;
+    text-decoration: none;
+}
+.navbar > li > a:hover{
+    color: white;   
+    cursor: pointer;
+}
+
 .hero{
     background-color: maroon;
-    height: 80vh;
+    height: 90vh;
     color: white;
     display: flex;
     justify-content: center;
