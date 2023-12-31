@@ -302,8 +302,8 @@ export function ContactUs(){
     map.id = "map";
     const mapIframe = document.createElement('iframe');
     mapIframe.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435616.16679459787!2d73.87165709295905!3d31.46227253712129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3918fde40e954753%3A0xb8ea639d79127a78!2sLahore%20City%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1702111843026!5m2!1sen!2s";
-    mapIframe.width = "900";
-    mapIframe.height = "500";
+    mapIframe.width = "750";
+    mapIframe.height = "422";
     mapIframe.allowFullscreen = "";
     mapIframe.loading = "lazy";
     mapIframe.referrerPolicy = "no-referrer-when-downgrade";
