@@ -1,26 +1,36 @@
 
 const mainContent = document.querySelector('#content');
+const content = document.createElement('div');
+content.id = "main-content"
+mainContent.appendChild(content);
 //navbar setup
 export function Navbar(){
 const navbar = document.createElement('nav');
 const ul = document.createElement('ul');
 ul.classList = "navbar";
 const li1 = document.createElement('li');
-li1.classList = "navbar-links";
-li1.id = "link1";
-li1.textContent = "Home";
+const a1 = document.createElement('a');
+a1.classList = "navbar-links";
+a1.id = "link1";
+a1.textContent = "Home";
+
 const li2= document.createElement('li');
-li2.classList = "navbar-links";
-li2.id = "link2";
-li2.textContent = "Our Story";
+const a2 = document.createElement('a');
+a2.classList = "navbar-links";
+a2.id = "link2";
+a2.textContent = "Our Story";
+
 const li3= document.createElement('li');
-li3.classList = "navbar-links";
-li3.id = "link3";
-li3.textContent = "Menu";
+const a3 = document.createElement('a');
+a3.classList = "navbar-links";
+a3.id = "link3";
+a3.textContent = "Menu";
+
 const li4= document.createElement('li');
-li4.classList = "navbar-links";
-li4.id = "link4";
-li4.textContent = "Contact";
+const a4 = document.createElement('a');
+a4.classList = "navbar-links";
+a4.id = "link4";
+a4.textContent = "Contact";
 
 const backCover = document.createElement("div");
 backCover.id = 'back-cover';
@@ -31,6 +41,11 @@ ul.appendChild(li1);
 ul.appendChild(li2);
 ul.appendChild(li3);
 ul.appendChild(li4);
+li1.appendChild(a1);
+li2.appendChild(a2);
+li3.appendChild(a3);
+li4.appendChild(a4);
+
 mainContent.appendChild(backCover);
 
 }
@@ -58,12 +73,13 @@ export function HomePage(){
     heroImage.src = 'https://img.freepik.com/premium-photo/dum-handi-chicken-biryani-is-prepared-earthen-clay-pot-called-haandi-popular-indian-non-vegetarian-food_466689-52233.jpg';
     
     
+    content.appendChild(heroSection);
+    mainContent.appendChild(content);
     heroSection.appendChild(heroDescription);
     heroSection.appendChild(heroImage);
     heroDescription.appendChild(h1);
     heroDescription.appendChild(p);
     heroDescription.appendChild(button);
-    mainContent.appendChild(heroSection);
 }
 //Our Story page setup
 export function StoryPage(){
@@ -88,7 +104,8 @@ export function StoryPage(){
     const p6 = document.createElement('p');
     p6.textContent = "We look forward to welcoming you and sharing our story—one plate at a time.";
 
-    mainContent.appendChild(OurStory);
+    mainContent.appendChild(content);
+    content.appendChild(OurStory);
     OurStory.appendChild(h2);
     OurStory.appendChild(img);
     OurStory.appendChild(story);
@@ -192,7 +209,8 @@ export function Menu(){
     capD2.textContent = 'Kheer';
 
     //Appending all the nodes to the main div
-    mainContent.appendChild(menu);
+    mainContent.appendChild(content);
+    content.appendChild(menu);
     menu.appendChild(h2);
     menu.appendChild(dishes);
     dishes.appendChild(beverages);
@@ -291,7 +309,8 @@ export function ContactUs(){
     mapIframe.referrerPolicy = "no-referrer-when-downgrade";
 
     //Appending all the nodes
-    mainContent.appendChild(contactUs);
+    mainContent.appendChild(content);
+    content.appendChild(contactUs);
     contactUs.appendChild(info);
     contactUs.appendChild(map);
     info.appendChild(div1);
