@@ -19,11 +19,11 @@
     flex:  1 1 auto;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
+    font-size: 30px;
     list-style: none;
     gap: 35px;
     font-family:  'josefin sans', 'Times New Roman', Times, serif;
-    padding: 50px;
+    padding: 45px;
     background-color: goldenrod;
     z-index: 10;
 }
@@ -45,7 +45,7 @@
 
 .hero{
     background-color: maroon;
-    height: 90vh;
+    height: 78vh;
     color: white;
     display: flex;
     justify-content: center;
@@ -54,13 +54,13 @@
 }
 .hero > img {
     width: 80%;
-    padding: 60px;
+    padding: 40px;
     border-radius: 100px;
 }
 #hero-description > p{
    color: goldenrod;
    padding: 50px;
-   font-size: 30px;
+   font-size: 26px;
    position: relative;
    top: 70px;
    margin-left: 20px;
@@ -82,13 +82,13 @@
     color: maroon;
     box-shadow: 0px 7px 9px -4px rgba(0,0,0,.5);
     padding: 10px;
-    font-size: 25px;
+    font-size: 22px;
     margin: 40px 40px 40px 70px;
     font-family: 'cabin sketch' , 'Times New Roman', Times, serif;
     z-index: 200;
 }
 #hero-description > h1 {
-    font-size: 60px;
+    font-size: 50px;
     padding: 20px;
     background-color: goldenrod;
     color: maroon;
@@ -113,14 +113,14 @@
     border-radius: 20px;
 }
 #our-story > h2 {
-    font-size: 50px;
+    font-size: 40px;
     padding: 20px;
     margin: 60px 20px 20px 40px;
     background-color: goldenrod;
     color: maroon;
     font-weight: normal;
     font-family: 'josefin sans', 'Times New Roman', Times, serif;
-    width: 350px;
+    width: 270px;
 }
 #story{
     display: flex;
@@ -134,7 +134,7 @@
 #story > p {
     width: 50%;
     color: goldenrod;
-    font-size: 23px;
+    font-size: 18px;
     font-family: 'josefin sans' , 'Times New Roman', Times, serif;
 }
 #menu {
@@ -145,10 +145,10 @@
     color: goldenrod;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
 }
 #menu > h2 {
-    font-size: 50px;
+    font-size: 40px;
     padding: 20px;
     margin: 60px 20px 20px 40px;
     background-color: goldenrod;
@@ -167,14 +167,14 @@
     margin-bottom: 50px;
 }
 .beverages >div >  figure > img{
-    width: 400px; 
-    height: 400px;
+    width: 350px; 
+    height: 350px;
     z-index: 1000;
     position: relative;
 }
 .main-course > div> figure >  img , .desserts > div > figure > img{
-  width: 450px;
-  height: 350px;
+  width: 400px;
+  height: 300px;
 }
 #dishes > div > div > figure > figcaption {
     text-align: center;
@@ -250,7 +250,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 87vh;
+    height: 80vh;
     width: 100vw;
     background-color: maroon;
     color:goldenrod;
@@ -261,20 +261,20 @@
     gap: 30px;
     background-color: rgb(5, 5, 87);
     padding: 40px;
-    height: 430px;
+    height: 350px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 #info > div > h3 {
-   font-size: 25px;
+   font-size: 20px;
    color : rgb(233, 146, 17);
    padding-bottom: 5px;
    font-family: "josefin sans" , 'Times New Roman', Times, serif;
 }
 #info > div > p {
-    font-size: 15px;
+    font-size: 12px;
     color : white;
-    line-height:  22px;
+    line-height:  18px;
     font-family: "josefin sans" , 'Times New Roman', Times, serif;
 }
 #map{
